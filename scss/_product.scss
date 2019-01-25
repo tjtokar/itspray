@@ -1,0 +1,73 @@
+.hero{
+  background-image:url('img/product-bubbles-bg.jpg');
+  background-position: top left;
+  background-size: cover;
+  height:900px;
+
+
+  h1{
+    font-weight: bold;
+  }
+
+  .smallbubbles{
+    position: absolute;
+    right:-20px;
+    height:900px;
+    z-index: 99;
+    img{
+      height:100%;
+    }
+  }
+
+  .p-bubble{
+    position: relative;
+
+    img{
+      width:150%;
+    }
+  }
+
+  .p-bubble-1{
+    margin-top:15%;
+    z-index: 9999;
+  }
+  .p-bubble-2{
+    margin-top:35%;
+
+    z-index: 9;
+  }
+
+  .p-bubble-3{
+    margin-top:15%;
+    img{
+      height:70%;
+      width: auto;
+    }
+  }
+}
+
+
+.product-details{
+  img{
+    width:100%;
+  }
+
+  h2{
+    font-weight: bold;
+  }
+
+  .quote{
+    position: absolute;
+    font-size:80px;
+    top:-40px;
+  }
+}
+
+
+.columns{
+
+
+  img{
+    width:50%;
+  }
+}

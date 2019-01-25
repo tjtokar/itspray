@@ -1,0 +1,89 @@
+.btn{
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btn-red{
+  background-color: $red;
+  border:2px solid transparent;
+  color:#f0f0f0 !important;
+
+  &:hover{
+    background-color: #ccc;
+    border-color:$red;
+    color:$red !important;
+  }
+}
+
+.btn-red-reverse{
+  background-color: transparent;
+  border:2px solid $red;
+  color:$red !important;
+
+  &:hover{
+    background-color: #ccc;
+    border:2px solid $red;
+    color:$red !important;
+  }
+}
+
+.btn-blue{
+  background-color: $blue;
+  border:2px solid transparent;
+  color:#f0f0f0 !important;
+
+  &:hover{
+    background-color: #ccc;
+    border-color:$blue;
+    color:$blue !important;
+  }
+}
+
+.btn-blue-reverse{
+  background-color: transparent;
+  border:2px solid $blue;
+  color:$blue !important;
+
+  &:hover{
+    background-color: #ccc;
+    border:2px solid $blue;
+    color:$blue !important;
+  }
+}
+
+.btn-orange{
+  background-color: $orange;
+  border:2px solid transparent;
+  color:#f0f0f0 !important;
+
+  &:hover{
+    background-color: #ccc;
+    border-color:$orange;
+    color:$orange !important;
+  }
+}
+
+.btn-orange-reverse{
+  background-color: transparent;
+  border:2px solid $orange;
+  color:$orange !important;
+
+  &:hover{
+    background-color: #ccc;
+    border:2px solid $orange;
+    color:$orange !important;
+  }
+}
+
+.btn-gray{
+  background-color: #5a5a5a;
+  border:2px solid transparent;
+  color:#f0f0f0 !important;
+
+  &:hover{
+    background-color: #f0f0f0;
+    border-color:#5a5a5a;
+    color:#5a5a5a !important;
+  }
+}

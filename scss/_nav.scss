@@ -1,0 +1,20 @@
+.navbar-brand{
+  img{
+    width:65px;
+  }
+}
+
+#menu-menu-1, #menu-menu-2{
+  li a, .nav  li a{
+    font-weight: bold;
+    text-transform: uppercase;
+    border:2px solid transparent;
+    padding:5px 20px;
+    margin:0px 5px;
+    font-size:12px;
+  }
+
+  a:hover{
+    border:2px solid #5a5a5a;
+  }
+}
