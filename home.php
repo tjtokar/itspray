@@ -2,7 +2,7 @@
 <?php get_header(); ?>
     <?php while ( have_posts() ) : the_post(); ?>
       <?php
-      //dev only
+      //local only
         if( have_rows('home') ):
             while ( have_rows('home') ) : the_row();
                  get_template_part( 'flexible-templates/'. get_row_layout() );
