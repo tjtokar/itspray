@@ -7,6 +7,7 @@
 
   h1{
     font-weight: bold;
+    text-align: center;
   }
 
   .smallbubbles{
@@ -22,6 +23,7 @@
   .p-bubble{
     position: relative;
 
+
     img{
       width:150%;
     }
@@ -30,15 +32,17 @@
   .p-bubble-1{
     margin-top:15%;
     z-index: 9999;
+    transform-origin: 60% 15%;
   }
   .p-bubble-2{
     margin-top:35%;
-
+    transform-origin: 50% 35%;
     z-index: 9;
   }
 
   .p-bubble-3{
     margin-top:15%;
+    transform-origin: 50% 50%;
     img{
       height:70%;
       width: auto;

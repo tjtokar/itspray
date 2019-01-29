@@ -1,4 +1,4 @@
-<div class="container columns py-3 my-3">
+<div class="container columns py-3 my-3" style="display:none;">
   <div class="row d-flex align-items-stretch">
     <?php
 
