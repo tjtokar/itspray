@@ -21,6 +21,9 @@ h3 {
 .font-blue {
   color: #4000ff !important; }
 
+.font-green {
+  color: #1e8619 !important; }
+
 .navbar-brand img {
   width: 65px; }
 
@@ -186,6 +189,16 @@ html, body {
   background-image: url("img/product-bubbles-bg.jpg");
   background-size: cover;
   background-position: left top; }
+
+.intro {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-image: url("img/intro-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999; }
 
 section {
   height: 100vh; }

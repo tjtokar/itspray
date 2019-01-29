@@ -33,6 +33,11 @@ $(document).ready(function() {
     });
   }
 
+  setTimeout( function() {
+    $.scrollify.move("#home");
+    $(".intro").fadeOut();
+  }, 5000)
+
   $('.shop-now').click(function(){
     $.scrollify.move("#buy");
   });
