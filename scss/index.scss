@@ -21,6 +21,21 @@ html, body{
   background-position: left top;
 }
 
+#Layer_1{
+  width:180px;
+  height:180px;
+  margin-bottom:20px;
+}
+
+.clr {fill: url(#img1);}
+
+.move {animation: col 5s linear forwards ;}
+
+@keyframes col {
+0%, {y:1000}
+100% {y:0}
+}
+
 .intro{
   position: fixed;
   top:0px;
