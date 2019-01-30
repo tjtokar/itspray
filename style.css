@@ -140,6 +140,7 @@ h3 {
   .hero .smallbubbles {
     position: absolute;
     right: -20px;
+    top: 100px;
     height: 900px;
     z-index: 99; }
     .hero .smallbubbles img {
