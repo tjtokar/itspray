@@ -440,14 +440,8 @@ section{
   float:left;
   margin:0 20px 20px 0px;
 }
-
-.buy{
-  height:auto !important;
-  padding:200px 0 50px 0;
-}
-
-.blog{
-  height:900px !important;
+.buy, .blog{
+  padding-top:150px;
 }
 
 @import "responsive";
