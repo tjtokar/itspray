@@ -1,5 +1,5 @@
 <section class="section head d-flex" data-section-name="home">
-  <div class="col-lg-5 headline align-self-center pl-0">
+  <div class="col-lg-5 col-xl-6 headline align-self-center pl-0">
     <?php if( have_rows('taglines') ): while ( have_rows('taglines') ) : the_row(); ?>
 
       <div class="h1 h1-<?php the_sub_field('color'); ?>" data-color="<?php the_sub_field('color'); ?>"><h1><span class="mmdash">&mdash;</span> <?php the_sub_field('tagline'); ?></h1></div>
@@ -19,7 +19,7 @@
 
     <?php endwhile; else : endif; ?>
   </div>
-  <div class="col-lg-7 graphic">
+  <div class="col-lg-7 col-xl-6 graphic">
     <div class="bubble-layer wow zoomIn" >
       <img src="<?php echo bloginfo('stylesheet_directory'); ?>/img/colored-bubbles.png" />
     </div>
