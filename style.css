@@ -504,7 +504,7 @@ section {
 
 .buy, .blog {
   height: auto !important;
-  padding-top: 100px 0; }
+  padding-top: 100px 0 !important; }
 
 @media (min-width: 1700px) {
   h1 {
