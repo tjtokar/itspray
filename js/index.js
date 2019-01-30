@@ -8,9 +8,9 @@ $(document).ready(function() {
   });
 
   $('.s-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    if( nextSlide == 0){
+    if( nextSlide == 1){
       $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/charge-logo.png');
-    } else if ( nextSlide == 1 ) {
+    } else if ( nextSlide == 2 ) {
       $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/dream-logo.png');
     } else {
       $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/boost-logo.png');
@@ -26,12 +26,17 @@ $(document).ready(function() {
       before:function(index, sections) {
         if(index == 1){
           $('.s-slider').slick('slickGoTo', 0);
-          $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/charge-logo.png');
+          $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/boost-logo.png');
+		  $("nav").css('background-color', 'transparent');
 
-        } else if(index == 2){
+        } else if(index == 0){
+				   	  $("nav").css('background-color', 'transparent');
 			$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
-	   	 $("nav").css('background-color', '#FFFFFF');
-		  $.scrollify.disable()
+
+		}else if(index == 2){
+			$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
+	   	  $("nav").css('background-color', '#FFFFFF');
+
 	    }else {
           $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
         }

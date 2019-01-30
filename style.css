@@ -39,8 +39,20 @@ h3 {
   border: 2px solid #5a5a5a; }
 
 #menu-menu-1 .menu-item-138 a:hover, #menu-menu-2 .menu-item-138 a:hover {
-  color: #FFF;
+  color: #FFF !important;
   background: #5a5a5a; }
+
+#menu-menu-1 a.dropdown-item, #menu-menu-2 a.dropdown-item {
+  border: none; }
+
+#menu-menu-1 .font-orange a:hover, #menu-menu-2 .font-orange a:hover {
+  color: #f86200; }
+
+#menu-menu-1 .font-red a:hover, #menu-menu-2 .font-red a:hover {
+  color: #FF0000; }
+
+#menu-menu-1 .font-blue a:hover, #menu-menu-2 .font-blue a:hover {
+  color: #4000ff; }
 
 .btn {
   border-radius: 0px;

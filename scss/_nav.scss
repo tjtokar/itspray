@@ -18,7 +18,25 @@
     border:2px solid #5a5a5a;
   }
   .menu-item-138 a:hover{
-    color:#FFF;
+    color:#FFF !important;
     background:#5a5a5a;
   }
+
+  a.dropdown-item{
+    border:none;
+  }
+
+  .font-orange a:hover{
+    color:$orange;
+  }
+  .font-red a:hover{
+    color:$red;
+  }
+  .font-blue a:hover{
+    color:$blue;
+  }
+}
+
+#menu-menu-2{
+
 }
