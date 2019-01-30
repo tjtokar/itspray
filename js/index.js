@@ -26,13 +26,14 @@ $(document).ready(function() {
       before:function(index, sections) {
         if(index == 1){
           $('.s-slider').slick('slickGoTo', 0);
-          //$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/charge-logo.png');
+          $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/charge-logo.png');
 
         } else if(index == 2){
+			$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
 	   	 $("nav").css('background-color', '#FFFFFF');
 		  $.scrollify.disable()
 	    }else {
-          //$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
+          $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
         }
 
       },
