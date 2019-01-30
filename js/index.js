@@ -21,7 +21,7 @@ $(document).ready(function() {
     $.scrollify({
       section : ".section",
       sectionName : "section-name",
-      interstitialSection:".footer,.buy,.blog",
+      interstitialSection:".footer",
       setHeights : false,
       before:function(index, sections) {
         if(index == 1){
