@@ -502,12 +502,11 @@ section {
   float: left;
   margin: 0 20px 20px 0px; }
 
-.buy, .blog {
-  height: auto !important;
-  padding: 200px 0 50px 0; }
+.buy {
+  height: auto !important; }
 
 .blog {
-  height: 900px; }
+  height: 900px !important; }
 
 @media (min-width: 1700px) {
   h1 {
