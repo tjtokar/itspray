@@ -45,13 +45,13 @@ h3 {
 #menu-menu-1 a.dropdown-item, #menu-menu-2 a.dropdown-item {
   border: none; }
 
-#menu-menu-1 .font-orange a:hover, #menu-menu-2 .font-orange a:hover {
+#menu-menu-1 .font-orange:hover a, #menu-menu-2 .font-orange:hover a {
   color: #f86200; }
 
-#menu-menu-1 .font-red a:hover, #menu-menu-2 .font-red a:hover {
+#menu-menu-1 .font-red:hover a, #menu-menu-2 .font-red:hover a {
   color: #FF0000; }
 
-#menu-menu-1 .font-blue a:hover, #menu-menu-2 .font-blue a:hover {
+#menu-menu-1 .font-blue:hover a, #menu-menu-2 .font-blue:hover a {
   color: #4000ff; }
 
 .btn {

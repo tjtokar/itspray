@@ -26,13 +26,13 @@
     border:none;
   }
 
-  .font-orange a:hover{
+  .font-orange:hover a{
     color:$orange;
   }
-  .font-red a:hover{
+  .font-red:hover a{
     color:$red;
   }
-  .font-blue a:hover{
+  .font-blue:hover a{
     color:$blue;
   }
 }

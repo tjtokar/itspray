@@ -88,5 +88,10 @@ $(document).ready(function() {
   $(".head .headline .h1:nth-of-type(1)").addClass('h1-active');
   $(".head .headline .buttons-red").removeClass('d-none');
 
+  $('.nav li.dropdown').hover(function() {
+      $(this).addClass('open');
+  }, function() {
+      $(this).removeClass('open');
+  });
 
 });
