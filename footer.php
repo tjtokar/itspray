@@ -3,7 +3,7 @@
     <?php
     wp_nav_menu( array(
       'theme_location'  => 'header-menu',
-      'depth'	          => 2, // 1 = no dropdowns, 2 = with dropdowns.
+      'depth'	          => 1, // 1 = no dropdowns, 2 = with dropdowns.
       'container'       => 'div',
       'container_class' => '',
       'container_id'    => '',

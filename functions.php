@@ -68,6 +68,7 @@ add_action( 'wp_head', 'fb_move_admin_bar' );
 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
 

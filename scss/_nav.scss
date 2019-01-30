@@ -18,22 +18,32 @@
     border:2px solid #5a5a5a;
   }
   .menu-item-138 a:hover{
+    .menu-image-title{
+      color:#FFF !important;
+    }
     color:#FFF !important;
     background:#5a5a5a;
   }
 
   a.dropdown-item{
     border:none;
+
+    &:hover{
+      background: none !important;
+      a{
+        background: none !important;
+      }
+    }
   }
 
-  .font-orange:hover a{
-    color:$orange;
+  .font-orange:hover a .menu-image-title{
+    color:$orange !important;
   }
-  .font-red:hover a{
-    color:$red;
+  .font-red:hover a .menu-image-title{
+    color:$red !important;
   }
-  .font-blue:hover a{
-    color:$blue;
+  .font-blue:hover a .menu-image-title{
+    color:$blue !important;
   }
 }
 

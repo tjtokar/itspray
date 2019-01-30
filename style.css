@@ -41,18 +41,24 @@ h3 {
 #menu-menu-1 .menu-item-138 a:hover, #menu-menu-2 .menu-item-138 a:hover {
   color: #FFF !important;
   background: #5a5a5a; }
+  #menu-menu-1 .menu-item-138 a:hover .menu-image-title, #menu-menu-2 .menu-item-138 a:hover .menu-image-title {
+    color: #FFF !important; }
 
 #menu-menu-1 a.dropdown-item, #menu-menu-2 a.dropdown-item {
   border: none; }
+  #menu-menu-1 a.dropdown-item:hover, #menu-menu-2 a.dropdown-item:hover {
+    background: none !important; }
+    #menu-menu-1 a.dropdown-item:hover a, #menu-menu-2 a.dropdown-item:hover a {
+      background: none !important; }
 
-#menu-menu-1 .font-orange:hover a, #menu-menu-2 .font-orange:hover a {
-  color: #f86200; }
+#menu-menu-1 .font-orange:hover a .menu-image-title, #menu-menu-2 .font-orange:hover a .menu-image-title {
+  color: #f86200 !important; }
 
-#menu-menu-1 .font-red:hover a, #menu-menu-2 .font-red:hover a {
-  color: #FF0000; }
+#menu-menu-1 .font-red:hover a .menu-image-title, #menu-menu-2 .font-red:hover a .menu-image-title {
+  color: #FF0000 !important; }
 
-#menu-menu-1 .font-blue:hover a, #menu-menu-2 .font-blue:hover a {
-  color: #4000ff; }
+#menu-menu-1 .font-blue:hover a .menu-image-title, #menu-menu-2 .font-blue:hover a .menu-image-title {
+  color: #4000ff !important; }
 
 .btn {
   border-radius: 0px;
