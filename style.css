@@ -502,7 +502,11 @@ section {
   float: left;
   margin: 0 20px 20px 0px; }
 
-@media (min-width: 1580px) {
+.buy, .blog {
+  height: auto !important;
+  padding-top: 100px 0; }
+
+@media (min-width: 1700px) {
   h1 {
     font-size: 52px; }
   #menu-menu-1 li a, #menu-menu-1 .nav li a, #menu-menu-2 li a, #menu-menu-2 .nav li a {
