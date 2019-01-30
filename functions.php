@@ -11,6 +11,8 @@ function add_theme_scripts() {
 
  wp_enqueue_style( 'slick-theme', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css' );
 
+ wp_enqueue_style( 'slick-theme', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css' );
+
   wp_enqueue_style( 'style', get_stylesheet_uri() );
 
   wp_deregister_script('jquery');
@@ -25,6 +27,8 @@ function add_theme_scripts() {
   wp_enqueue_script( 'wow', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', array ( 'jquery' ), 1.1, true);
 
   wp_enqueue_script( 'tilt', 'https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.6.1/vanilla-tilt.min.js', array ( 'jquery' ), 1.1, true);
+
+  wp_enqueue_script( 'fancybox', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js', array ( 'jquery' ), 1.1, true);
 
   wp_enqueue_script( 'slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array ( 'jquery' ), 1.1, true);
 

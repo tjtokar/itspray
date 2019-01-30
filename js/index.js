@@ -50,9 +50,15 @@ $(document).ready(function() {
     $.scrollify.move("#blog");
   });
 
-
-
   $('.s-slider').slickAnimation();
+
+  $('.cart-box').fancybox({
+    toolbar  : false,
+  	smallBtn : true,
+  	iframe : {
+  		preload : false
+  	}
+  });
 
   $(".head .headline .h1").bind( 'mouseenter', function(){
     $(".headline .h1").removeClass('h1-active');
