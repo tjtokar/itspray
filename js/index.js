@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   new WOW().init();
 
   $('.s-slider').slick({
@@ -33,9 +34,14 @@ $(document).ready(function() {
     });
   }
 
+  if( localStorage.getItem('returnVistor') ){
+    $(".intro").remove();
+  }
+
   setTimeout( function() {
     $.scrollify.move("#home");
     $(".intro").fadeOut();
+    localStorage.setItem('returnVistor', true);
   }, 5000)
 
   $('.shop-now').click(function(){
@@ -52,11 +58,12 @@ $(document).ready(function() {
 
   $('.s-slider').slickAnimation();
 
-  $('.cart-box').fancybox({
-    toolbar  : false,
-  	smallBtn : true,
+  $('.cart-box a').fancybox({
   	iframe : {
-  		preload : false
+  		preload : true,
+      css : {
+            width : '80%'
+        }
   	}
   });
 

@@ -3,7 +3,7 @@
     <div class="row h-100 d-block">
       <div class="col-3 h-50 py-3 float-left">
         <div class="s-blog p-5 h-100 d-flex">
-          <div class="s-copy align-self-end">
+          <div class="s-copy align-self-center">
             <h2><?php the_sub_field('heading'); ?></h2>
             <p><?php the_sub_field('content'); ?></p>
             <div class="buttons buttons-gray mt-1">

@@ -14,7 +14,11 @@
     font-size:12px;
   }
 
-  a:hover{
+  a:hover, .menu-item-138 a{
     border:2px solid #5a5a5a;
+  }
+  .menu-item-138 a:hover{
+    color:#FFF;
+    background:#5a5a5a;
   }
 }
