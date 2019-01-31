@@ -13,8 +13,8 @@
         </div>
       </div>
 
-	 <div class="col-3 h-100 py-3 float-right">
-        <div class="s-blog p-5 h-100 d-flex">
+	 <div class="col-3 h-100 py-3 my-3 float-right" style="background:#FFF;">
+        <div class="s-blog h-100 d-flex">
           <div class=" align-self-center">
             <?php echo do_shortcode('[instagram-feed]'); ?>
           </div>

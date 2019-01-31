@@ -551,6 +551,9 @@ section {
 .buy, .blog {
   padding-top: 70px; }
 
+#sb_instagram .sbi_follow_btn a {
+  color: #FFF !important; }
+
 @media (min-width: 1700px) {
   h1, h1 p {
     font-size: 52px !important; }
