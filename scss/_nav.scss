@@ -1,3 +1,7 @@
+.fixed-top{
+  z-index: 99999999999;
+}
+
 .navbar-brand{
   img{
     width:65px;
@@ -47,6 +51,20 @@
   }
 }
 
-#menu-menu-2{
+.dropdown-menu{
+  border-radius: 0px;
+}
 
+.menu-item-279{
+  a:hover{
+    border-color: transparent !important;
+  }
+
+  .menu-image-hover-wrapper{
+    position: relative;
+    top:-4px;
+  }
+  .menu-image-title{
+    display: none;
+  }
 }

@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+  if( localStorage.getItem('returnVistor') ){
+    $(".intro").remove();
+  } else {
+    $(".intro").show();
+  }
+
+  setTimeout( function() {
+    $.scrollify.move("#home");
+    $(".intro").fadeOut();
+    localStorage.setItem('returnVistor', true);
+  }, 5000);
 
   new WOW().init();
 
@@ -43,17 +54,19 @@ $(document).ready(function() {
 
       },
     });
+  } else {
+    $(document).scroll(function() {
+    if ($(document).scrollTop() >= 50) {
+        $("nav").css('background-color', '#FFFFFF');
+        $('.navbar-brand img').css('width', '25px');
+    } else {
+        $("nav").css('background-color', 'transparent');
+        $('.navbar-brand img').css('width', '65px');
+    }
+  });
   }
 
-  if( localStorage.getItem('returnVistor') ){
-    $(".intro").remove();
-  }
 
-  setTimeout( function() {
-    $.scrollify.move("#home");
-    $(".intro").fadeOut();
-    localStorage.setItem('returnVistor', true);
-  }, 5000)
 
   $('.shop-now').click(function(){
     $.scrollify.move("#buy");
@@ -88,10 +101,10 @@ $(document).ready(function() {
   $(".head .headline .h1:nth-of-type(1)").addClass('h1-active');
   $(".head .headline .buttons-red").removeClass('d-none');
 
-  $('.nav li.dropdown').hover(function() {
-      $(this).addClass('open');
+  $('nav li.dropdown').hover(function() {
+      $(this).find('.dropdown-menu').show();
   }, function() {
-      $(this).removeClass('open');
+      $(this).find('.dropdown-menu').hide();
   });
 
 });
