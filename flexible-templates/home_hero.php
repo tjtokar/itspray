@@ -2,7 +2,7 @@
   <div class="col-lg-5 col-xl-6 headline align-self-center pl-0">
     <?php if( have_rows('taglines') ): while ( have_rows('taglines') ) : the_row(); ?>
 
-      <div class="h1 h1-<?php the_sub_field('color'); ?>" data-color="<?php the_sub_field('color'); ?>"><h1><span class="mmdash">&mdash;</span> <?php the_sub_field('tagline'); ?></h1></div>
+      <div class="h1 h1-<?php the_sub_field('color'); ?>" data-color="<?php the_sub_field('color'); ?>"><h1><span class="mmdash"><i class="fas fa-caret-right ml-1"></i></span> <?php the_sub_field('tagline'); ?></h1></div>
 
     <?php endwhile; else : endif; ?>
 

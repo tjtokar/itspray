@@ -7,7 +7,6 @@ $(document).ready(function() {
   }
 
   setTimeout( function() {
-    $.scrollify.move("#home");
     $(".intro").fadeOut();
     localStorage.setItem('returnVistor', true);
   }, 5000);
@@ -99,7 +98,7 @@ $(document).ready(function() {
   });
 
   $(".head .headline .h1:nth-of-type(1)").addClass('h1-active');
-  $(".head .headline .buttons-red").removeClass('d-none');
+  $(".head .headline .buttons-orange").removeClass('d-none');
 
   $('nav li.dropdown').hover(function() {
       $(this).find('.dropdown-menu').show();
