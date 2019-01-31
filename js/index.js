@@ -24,21 +24,21 @@ $(document).ready(function() {
       interstitialSection:".footer",
       setHeights : false,
       before:function(index, sections) {
-        if(index == 1){
-          $('.s-slider').slick('slickGoTo', 0);
-          $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/boost-logo.png');
-		  $("nav").css('background-color', 'transparent');
-
-        } else if(index == 0){
-				   	  $("nav").css('background-color', 'transparent');
-			$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
-
-		}else if(index == 2){
-			$('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
-	   	  $("nav").css('background-color', '#FFFFFF');
-
-	    }else {
-          $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
+        if(index == 0){
+            $("nav").css('background-color', 'transparent');
+            $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
+            $('.navbar-brand img').css('width', '65px');
+        } else if(index == 1){
+            $('.s-slider').slick('slickGoTo', 0);
+            $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/boost-logo.png');
+            $('.navbar-brand img').css('width', '65px');
+            $("nav").css('background-color', 'transparent');
+		    } else if(index == 2){
+			      $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
+            $('.navbar-brand img').css('width', '25px');
+	   	      $("nav").css('background-color', '#FFFFFF');
+	      } else {
+            $('.navbar-brand img').attr('src', 'wp-content/themes/itspray/img/it_spray_logo.png');
         }
 
       },

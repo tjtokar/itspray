@@ -381,9 +381,9 @@ section{
     }
 
     img{
-      width:150%;
+      width:100%;
       position: relative;
-      left:-35%;
+      left:-5%;
     }
 
 
@@ -411,6 +411,14 @@ section{
 
   h2, h3{
     font-weight: bold;
+  }
+
+  h2{
+    font-size:18px;
+  }
+
+  p{
+    font-size:12px;
   }
 
   .white-copy{
@@ -441,7 +449,7 @@ section{
   margin:0 20px 20px 0px;
 }
 .buy, .blog{
-  padding-top:150px;
+  padding-top:100px;
 }
 
 @import "responsive";
