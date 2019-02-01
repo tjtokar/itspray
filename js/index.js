@@ -79,6 +79,19 @@ $(document).ready(function() {
     $.scrollify.move("#blog");
   });
 
+  nav = 0;
+  $(".navbar-toggler").click( function(){
+    if( nav == 0 ){
+      nav = 1;
+      $("nav").css('background-color', '#FFFFFF');
+
+    } else {
+      nav = 0;
+      $("nav").css('background-color', 'transparent');
+
+    }
+  });
+
   $('.s-slider').slickAnimation();
 
   $('.cart-box a').fancybox({

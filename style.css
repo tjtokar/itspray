@@ -516,6 +516,7 @@ section {
   background-position: center center;
   background-size: cover; }
   .s-blog .s-copy {
+    width: 100%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+36,0.65+36 */
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 36%, rgba(0, 0, 0, 0.65) 100%);
     /* FF3.6-15 */
@@ -570,3 +571,29 @@ section {
   .buy .product img {
     width: 230%;
     left: -80%; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .graphic .bubble-layer img, .graphic .fruit-layer img {
+    top: 55%; }
+  h1 {
+    font-size: 26px; }
+  .buy .product img {
+    width: 100%;
+    left: -60%; }
+  .hero .smallbubbles img {
+    height: 80%; } }
+
+@media (min-width: 481px) and (max-width: 1023px) {
+  .graphic .bubble-layer img, .graphic .fruit-layer img {
+    top: 50%; }
+  h1 {
+    font-size: 22px; }
+  .buy .product img {
+    width: 175%;
+    left: -50%; }
+  .blog {
+    overflow: hidden; }
+  .s-slider .shop-holder, .s-slider .shop-charge, .s-slider .shop-dream, .s-slider .shop-boost {
+    background-position: 30% center; }
+  .headline {
+    padding-left: 0px !important; } }

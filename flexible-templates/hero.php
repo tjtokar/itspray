@@ -1,6 +1,6 @@
 <div class="hero" style="height:1000px;">
   <div class="row h-100 d-flex">
-    <div class="col-4 align-self-center p-5">
+    <div class="col-4 align-self-center p-lg-2 p-xl-5">
       <h1 class="pl-5 text-left"><?php the_sub_field('headline'); ?></h1>
       <div class="pl-5 mt-3"><?php the_sub_field('copy'); ?></div>
     </div>

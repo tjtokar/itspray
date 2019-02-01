@@ -1,7 +1,7 @@
 <section class="section blog" data-section-name="blog">
   <div class="h-100">
     <div class="row h-100 d-block">
-      <div class="col-3 h-50 py-3 float-left">
+      <div class="col-md-6 col-lg-3 h-50 py-3 float-left">
         <div class="s-blog p-5 h-100 d-flex">
           <div class=" align-self-center">
             <h2><?php the_sub_field('heading'); ?></h2>
@@ -13,7 +13,7 @@
         </div>
       </div>
 
-	 <div class="col-3 h-100 py-3 my-3 float-right" style="background:#FFF;">
+	 <div class="col-md-6 col-lg-3 h-100 py-3 my-3 float-right d-md-none d-lg-block" style="background:#FFF;">
         <div class="s-blog h-100 d-flex">
           <div class=" align-self-center">
             <?php echo do_shortcode('[instagram-feed]'); ?>
@@ -28,7 +28,7 @@
 
       $recent_posts = wp_get_recent_posts( $args, ARRAY_A );
       foreach( $recent_posts as $recent ){ ?>
-        <div class="col-3 h-50 py-3 float-left">
+        <div class="col-md-6 col-lg-3 h-50 py-3 float-left">
           <?php if( get_field('featured_image', $recent[ID]) == "") { ?>
             <div class="s-blog s-border p-5 h-100 d-flex">
           <?php } else { ?>
