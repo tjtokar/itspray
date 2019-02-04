@@ -10,7 +10,7 @@
           <?php the_sub_field('product_headline'); ?>
           <img class="wow fadeIn mt-4" src="<?php the_sub_field('product_image'); ?>" />
           <div class="buttons buttons-<?php the_sub_field('color'); ?> mt-1 text-center">
-            <a href="<?php the_sub_field('link'); ?>" class="btn btn-primary btn-<?php the_sub_field('color'); ?> px-5 py-2">BUY it!</a>
+            <a href="<?php the_sub_field('button_link'); ?>" class="btn btn-primary btn-<?php the_sub_field('color'); ?> px-5 py-2">BUY it!</a>
           </div>
         </div>
 
