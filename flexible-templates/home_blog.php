@@ -42,7 +42,7 @@
 					 <?php if( get_field('external_link', $recent[ID]) ) { ?>
                     	<a href="<?php echo get_field('external_link', $recent[ID]); ?>" class="btn btn-primary btn-gray px-5 py-2">READ it</a>
 					  <?php } else { ?>
-                    	<a href="<?php echo get_permalink($recent["ID"]); ?>" class="btn btn-primary btn-gray px-5 py-2">READ it</a>
+                    	<a href="<?php echo get_permalink($recent["ID"]); ?>" target="_blank" class="btn btn-primary btn-gray px-5 py-2">READ it</a>
 					  <?php } ?>
                   </div>
                 </div>
