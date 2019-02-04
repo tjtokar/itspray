@@ -2,7 +2,7 @@
   <div class="s-slider">
     <?php if( have_rows('slides') ): while ( have_rows('slides') ) : the_row(); ?>
 
-      <div class="p-5 shop-holder d-flex" style="background-image:url('<?php the_sub_field('background'); ?>');">
+      <div class="p-5 shop-holder d-flex <?php the_sub_field('color'); ?>" style="background-image:url('<?php the_sub_field('background'); ?>');">
         <div class="headline align-self-center col-6 pl-5 <?php the_sub_field('text_placement'); ?>">
           <div class="h1 h1-<?php the_sub_field('color'); ?>"><h1><?php the_sub_field('content'); ?></h1></div>
           <div class="buttons buttons-<?php the_sub_field('color'); ?> mt-5">

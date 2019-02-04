@@ -40,7 +40,7 @@
 
   .buy .product img{
     width:100%;
-    left:-60%;
+    left:0%;
   }
 
   .hero .smallbubbles img{
@@ -74,6 +74,14 @@
 
   .headline{
     padding-left:0px !important;
+  }
+
+  .bubble{
+    margin-left:-100px;
+  }
+
+  .s-slider .blue{
+    background-position: 50% center !important;
   }
 
 }
