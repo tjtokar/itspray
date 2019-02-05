@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  if( localStorage.getItem('returnVistor') ){
+  if( localStorage.getItem('returnVistor') || $(window).width() > 767 ){
     $(".intro").remove();
   } else {
     $(".intro").show();
@@ -27,7 +27,7 @@ $(document).ready(function() {
     }
   });
 
-  if( $("body").hasClass('home') ){
+  if( $("body").hasClass('home') &&  $(window).width() > 767 ){
     $.scrollify({
       section : ".section",
       sectionName : "section-name",

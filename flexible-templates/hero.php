@@ -1,10 +1,10 @@
 <div class="hero" style="height:1000px;">
-  <div class="row h-100 d-flex">
-    <div class="col-4 align-self-center p-lg-2 p-xl-5">
-      <h1 class="pl-5 text-left"><?php the_sub_field('headline'); ?></h1>
-      <div class="pl-5 mt-3"><?php the_sub_field('copy'); ?></div>
+  <div class="row h-100 d-xs-block d-sm-flex">
+    <div class="col-xs-10 col-sm-4 align-self-center p-lg-2 p-xl-5">
+      <h1 class="pl-xs-2 pl-sm-5 text-left"><?php the_sub_field('headline'); ?></h1>
+      <div class="pl-xs-2 pl-sm-5 mt-3"><?php the_sub_field('copy'); ?></div>
     </div>
-    <div class="col-8">
+    <div class="col-xs-12 col-sm-8">
       <div class="smallbubbles"><img src="<?php the_sub_field('bubblebg'); ?>" /></div>
       <div class="row">
         <div class="p-bubble p-bubble-1 wow zoomIn col-2 text-right"><img src="<?php the_sub_field('bubble1'); ?>" /></div>

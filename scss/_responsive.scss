@@ -85,3 +85,95 @@
   }
 
 }
+
+@media (max-width: 480px){
+  .head{
+    height:auto;
+    padding-top:150px;
+  }
+  section{
+    height:auto;
+  }
+
+  h1{
+    font-size:22px;
+  }
+
+  .pl-xs-2{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .graphic{
+    padding-top:50px;
+  }
+  .graphic .fruit-layer{
+    position: relative !important;
+  }
+  .graphic .bubble-layer img, .graphic .fruit-layer img{
+    top:0px;
+    transform: translateY(0);
+  }
+  .py-xs-4{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .bubbles-pop{
+    height: 775px;
+
+  }
+  .s-slider .shop-holder{
+    background-position: 60% 120%;
+    background-size: 300%;
+    background-repeat: no-repeat;
+  }
+  .s-slider .shop-holder .blue{
+    background-position: 30% 120%;
+  }
+  .left-80{
+    margin-left:-80px !important;
+  }
+  .left-0{
+    margin-left:0px !important;
+  }
+  .left-38{
+    margin-left:-80px !important;
+  }
+  .left-65{
+    margin-left:-60px !important;
+    margin-top:-30px !important;
+
+  }
+  .left-30{
+    margin-top:-150px !important;
+    margin-left:20px !important;
+  }
+  .shop-holder{
+    padding-top:20px;
+  }
+  .bubble{
+    margin-left:-30px;
+  }
+  .hero{
+    padding-top:200px;
+    height:auto !important;
+  }
+  .p-bubble-1 img{
+    width:350% !important;
+  }
+  .p-bubble-2 img{
+    width:430% !important;
+  }
+  .p-bubble-3 img{
+    height:auto !important;
+    width:100% !important;
+    margin-left: 20px;
+    margin-top: -50px
+  }
+  .hero .smallbubbles{
+    position: absolute;
+    right: -20px;
+    top: -600px;
+    height: 900px;
+    z-index: 0;
+  }
+}

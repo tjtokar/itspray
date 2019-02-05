@@ -1,9 +1,9 @@
 <div class="product-details container py-5">
-  <div class="row d-flex">
-    <div class="col-5  align-self-center">
+  <div class="row d-xs-block d-sm-flex">
+    <div class="col-xs-12 col-sm-5  align-self-center">
       <img src="<?php the_sub_field('product_shot'); ?>" />
     </div>
-    <div class="col-6 offset-1 align-self-center">
+    <div class="col-xs-12 col-sm-6 offset-1 align-self-center">
       <?php
         if( get_sub_field('color') == "red" ):
           $fontcolor = "font-red";

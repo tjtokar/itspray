@@ -1,12 +1,12 @@
-<section class="section head d-flex" data-section-name="home">
-  <div class="col-lg-5 col-xl-6 headline align-self-center pl-0">
+<section class="section head d-xs-block d-sm-flex" data-section-name="home">
+  <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xl-6 headline align-self-center pl-0">
     <?php if( have_rows('taglines') ): while ( have_rows('taglines') ) : the_row(); ?>
 
       <div class="h1 h1-<?php the_sub_field('color'); ?>" data-color="<?php the_sub_field('color'); ?>"><h1><span class="mmdash"><i class="fas fa-caret-right ml-1"></i></span> <?php the_sub_field('tagline'); ?></h1></div>
 
     <?php endwhile; else : endif; ?>
 
-    <div class="p mt-2 pl-5 ml-1">
+    <div class="p mt-2 pl-xs-2 pl-sm-5 ml-1">
       <?php the_sub_field('content'); ?>
     </div>
 
@@ -19,7 +19,7 @@
 
     <?php endwhile; else : endif; ?>
   </div>
-  <div class="col-lg-7 col-xl-6 graphic">
+  <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 col-xl-6 graphic">
     <div class="bubble-layer wow zoomIn" >
       <img src="<?php echo bloginfo('stylesheet_directory'); ?>/img/colored-bubbles.png" />
     </div>
