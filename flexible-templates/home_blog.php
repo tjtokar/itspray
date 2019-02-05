@@ -2,7 +2,7 @@
   <div class="h-100">
     <div class="row h-100 d-block">
       <div class="col-md-6 col-lg-3 h-50 py-3 float-left">
-        <div class="s-blog p-5 h-100 d-flex">
+        <div class="s-blog p-sm-5 h-100 d-flex">
           <div class=" align-self-center">
             <h2><?php the_sub_field('heading'); ?></h2>
             <p><?php the_sub_field('content'); ?></p>
