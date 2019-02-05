@@ -24,7 +24,7 @@ news from it Spray.</p>
 
   $recent_posts = wp_get_recent_posts( $args, ARRAY_A );
   foreach( $recent_posts as $recent ){ ?>
-    <div class="col-3 py-3 float-left"  style="min-height:250px;">
+    <div class="col-xs-12 col-sm-3 py-3 float-left"  style="min-height:250px;">
           <?php if( get_field('featured_image', $recent[ID]) == "") { ?>
             <div class="s-blog s-border p-5 d-flex h-100">
           <?php } else { ?>

@@ -693,5 +693,5 @@ section {
   .s-blog {
     min-height: 300px !important; }
 
-  .blog .float-left, .blog .float-right {
+  .blog .float-left, .blog .float-right, .page-template-blog .float-left, .page-template-blog .float-right {
     float: none !important; } }
