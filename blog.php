@@ -6,7 +6,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-3 py-3">
+  <div class="col-xs-12 col-sm-3 py-3">
     <div class="s-blog p-5 d-flex">
       <div class=" align-self-center">
         <h2>Blog</h2>
