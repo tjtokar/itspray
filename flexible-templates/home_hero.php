@@ -20,11 +20,9 @@
     <?php endwhile; else : endif; ?>
   </div>
   <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 col-xl-6 graphic">
-    <div class="bubble-layer wow zoomIn" >
-      <img src="<?php echo bloginfo('stylesheet_directory'); ?>/img/colored-bubbles.png" />
+    <div class="bubble-layer wow zoomIn" style="background-image:url('<?php echo bloginfo('stylesheet_directory'); ?>/img/colored-bubbles.png');" >
     </div>
-    <div class="fruit-layer wow zoomIn" data-wow-delay="0.3s" >
-      <img src="<?php echo bloginfo('stylesheet_directory'); ?>/img/fruit-spray-online.png" />
+    <div class="fruit-layer wow zoomIn" data-wow-delay="0.3s" style="background-image:url('<?php echo bloginfo('stylesheet_directory'); ?>/img/fruit-spray-online.png')" >
     </div>
   </div>
 </section>

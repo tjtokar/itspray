@@ -287,7 +287,10 @@ section {
     width: 100%;
     height: 100%;
     transform-origin: 50% 50%;
-    animation: swinging 10s ease-in-out forwards infinite; }
+    animation: swinging 10s ease-in-out forwards infinite;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat; }
     .graphic .bubble-layer img, .graphic .fruit-layer img {
       position: relative;
       width: 100%;
@@ -584,7 +587,7 @@ section {
     top: 50%; }
 
   h1 {
-    font-size: 22px; }
+    font-size: 20px; }
 
   .buy .product img {
     width: 175%;
@@ -620,7 +623,8 @@ section {
     padding-right: 15px; }
 
   .graphic {
-    padding-top: 50px; }
+    padding-top: 50px;
+    height: 400px; }
 
   .graphic .fruit-layer {
     position: relative !important; }

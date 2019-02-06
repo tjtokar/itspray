@@ -97,6 +97,9 @@ section{
     height:100%;
     transform-origin: 50% 50%;
     animation: swinging 10s ease-in-out forwards infinite;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     img{
       position: relative;
