@@ -1,8 +1,35 @@
 <div class="hero" style="height:1000px;">
   <div class="row h-100 d-xs-block d-sm-flex">
     <div class="col-xs-10 col-sm-4 align-self-center p-lg-2 p-xl-5">
-      <h1 class="pl-xs-2 pl-sm-5 text-left"><?php the_sub_field('headline'); ?></h1>
-      <div class="pl-xs-2 pl-sm-5 mt-3"><?php the_sub_field('copy'); ?></div>
+      <?php
+        if( get_sub_field('color') == "red" ):
+          $fontcolor = "font-red";
+          $buttonscolor = "buttons-red";
+          $btncolor = "btn-red";
+        elseif( get_sub_field('color') == "blue" ):
+          $fontcolor = "font-blue";
+          $buttonscolor = "buttons-blue";
+          $btncolor = "btn-blue";
+        else :
+          $fontcolor = "font-orange";
+          $buttonscolor = "buttons-orange";
+          $btncolor = "btn-orange";
+        endif;
+      ?>
+      <h2 class="<?php echo $fontcolor; ?>">
+        <?php the_sub_field('product_headline'); ?>
+      </h2>
+      <div><?php the_sub_field('product_copy'); ?></div>
+      <div class="row mt-4">
+        <div class="col-6">
+          <p><strong class="<?php echo $fontcolor; ?>"><?php the_sub_field('doses');?> Doses<br /><?php the_sub_field('flavor');?></strong></p>
+        </div>
+        <div class="col-6">
+          <div class="buttons <?php echo $buttonscolor; ?> mt-1">
+            <a href="<?php the_sub_field('product_link');?>" class="btn btn-primary <?php echo $btncolor; ?> py-2 px-5">BUY it!</a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-xs-12 col-sm-8">
       <div class="smallbubbles"><img src="<?php the_sub_field('bubblebg'); ?>" /></div>

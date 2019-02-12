@@ -13,8 +13,9 @@
     <?php if( have_rows('taglines') ): while ( have_rows('taglines') ) : the_row(); ?>
 
       <div class="d-none buttons buttons-<?php the_sub_field('color'); ?> mt-5 pl-5 ml-1">
-          <a href="<?php the_sub_field('buy_button_link'); ?>" class="btn btn-primary btn-<?php the_sub_field('color'); ?> px-5 py-2">BUY it!</a>
-          <a href="<?php the_sub_field('why_button_link'); ?>" class="btn btn-secondary btn-<?php the_sub_field('color'); ?>-reverse px-5 py-2">WHY it!</a>
+          <a href="#buy" class="shop-now btn btn-primary btn-<?php the_sub_field('color'); ?> px-5 py-2">BUY it!</a>
+          <!-- <a href="<?php the_sub_field('buy_button_link'); ?>" class="btn btn-primary btn-<?php the_sub_field('color'); ?> px-5 py-2">BUY it!</a> -->
+          <!-- <a href="<?php the_sub_field('why_button_link'); ?>" class="btn btn-secondary btn-<?php the_sub_field('color'); ?>-reverse px-5 py-2">WHY it!</a> -->
       </div>
 
     <?php endwhile; else : endif; ?>

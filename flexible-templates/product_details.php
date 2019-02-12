@@ -1,4 +1,4 @@
-<div class="product-details container py-5">
+<!-- <div class="product-details container py-5">
   <div class="row d-xs-block d-sm-flex">
     <div class="col-xs-12 col-sm-5  align-self-center">
       <img src="<?php the_sub_field('product_shot'); ?>" />
@@ -44,4 +44,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
