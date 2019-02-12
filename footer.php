@@ -14,9 +14,9 @@
     ?>
     <div class="text-center mt-4 d-flex">
       <ul class="list-inline mx-auto justify-content-center">
-        <li class="list-inline-item"><a href="" target="_blank"><i class="fa-2x fab fa-facebook-square"></i></a></li>
-        <li class="list-inline-item"><a href="" target="_blank"><i class="fa-2x fab fa-twitter-square"></i></a></li>
-        <li class="list-inline-item"><a href="" target="_blank"><i class="fa-2x fab fa-instagram"></i></a></li>
+        <li class="list-inline-item"><a href="https://www.facebook.com/theitspray/" target="_blank"><i class="fa-2x fab fa-facebook-square"></i></a></li>
+        <li class="list-inline-item"><a href="https://twitter.com/theitspray" target="_blank"><i class="fa-2x fab fa-twitter-square"></i></a></li>
+        <li class="list-inline-item"><a href="https://www.instagram.com/theitspray/" target="_blank"><i class="fa-2x fab fa-instagram"></i></a></li>
       </ul>
     </div>
     <p class="text-center mt-2">©2018 Benesprays<br />801 West Bay Drive, Suite 428A<br />Largo, FL 33770</p>
