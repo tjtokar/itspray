@@ -46,6 +46,10 @@
   .hero .smallbubbles img{
     height:80%;
   }
+  .fixed-top{
+    z-index: 99999999999;
+    padding:10px 20px;
+  }
 
 }
 //IPAD PORTRAIT
@@ -83,7 +87,10 @@
   .s-slider .blue{
     background-position: 50% center !important;
   }
-
+  .fixed-top{
+    z-index: 99999999999;
+    padding:10px 20px;
+  }
 }
 
 @media (max-width: 480px){
@@ -184,5 +191,12 @@
     .float-left, .float-right{
       float:none !important;;
     }
+  }
+  .fixed-top{
+    z-index: 99999999999;
+    padding:10px 20px;
+  }
+  .product-bubs .smallbubbles{
+    display: none !important;
   }
 }

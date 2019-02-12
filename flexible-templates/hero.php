@@ -1,6 +1,6 @@
 <div class="hero" style="height:1000px;">
   <div class="row h-100 d-xs-block d-sm-flex">
-    <div class="col-xs-10 col-sm-4 align-self-center p-lg-2 p-xl-5">
+    <div class="col-xs-10 col-sm-4 align-self-center pl-xs-2 p-lg-2 p-xl-5">
       <?php
         if( get_sub_field('color') == "red" ):
           $fontcolor = "font-red";
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-8">
+    <div class="col-xs-12 col-sm-8 product-bubs">
       <div class="smallbubbles"><img src="<?php the_sub_field('bubblebg'); ?>" /></div>
       <div class="row">
         <div class="p-bubble p-bubble-1 wow zoomIn col-2 text-right"><img src="<?php the_sub_field('bubble1'); ?>" /></div>

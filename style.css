@@ -581,7 +581,11 @@ section {
     left: 0%; }
 
   .hero .smallbubbles img {
-    height: 80%; } }
+    height: 80%; }
+
+  .fixed-top {
+    z-index: 99999999999;
+    padding: 10px 20px; } }
 @media (min-width: 481px) and (max-width: 1023px) {
   .graphic .bubble-layer img, .graphic .fruit-layer img {
     top: 50%; }
@@ -606,7 +610,11 @@ section {
     margin-left: -100px; }
 
   .s-slider .blue {
-    background-position: 50% center !important; } }
+    background-position: 50% center !important; }
+
+  .fixed-top {
+    z-index: 99999999999;
+    padding: 10px 20px; } }
 @media (max-width: 480px) {
   .head {
     height: auto;
@@ -698,4 +706,11 @@ section {
     min-height: 300px !important; }
 
   .blog .float-left, .blog .float-right, .page-template-blog .float-left, .page-template-blog .float-right {
-    float: none !important; } }
+    float: none !important; }
+
+  .fixed-top {
+    z-index: 99999999999;
+    padding: 10px 20px; }
+
+  .product-bubs .smallbubbles {
+    display: none !important; } }
