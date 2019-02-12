@@ -1,5 +1,5 @@
 <div class="hero" style="height:1000px;">
-  <div class="row h-100 d-xs-block d-sm-flex p-5">
+  <div class="row h-100 d-xs-block d-sm-flex p-4">
     <div class="col-xs-10 col-sm-4 align-self-center p-lg-2 p-xl-5">
       <?php
         if( get_sub_field('color') == "red" ):
