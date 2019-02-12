@@ -1,6 +1,6 @@
 <div class="hero" style="height:1000px;">
   <div class="row h-100 d-xs-block d-sm-flex p-5">
-    <div class="col-xs-10 col-sm-4 align-self-center pl-xs-2 p-lg-2 p-xl-5">
+    <div class="col-xs-10 col-sm-4 align-self-center p-lg-2 p-xl-5">
       <?php
         if( get_sub_field('color') == "red" ):
           $fontcolor = "font-red";
