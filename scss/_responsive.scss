@@ -29,7 +29,7 @@
   }
 }
 //IPAD LANDSCAPE
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1140px) {
   .graphic .bubble-layer img, .graphic .fruit-layer img{
     top:55%;
   }
@@ -37,7 +37,11 @@
   h1{
     font-size:26px;
   }
-
+  .p{
+    p,ul,a,li{
+      font-size: 12px;
+    }
+  }
   .buy .product img{
     width:100%;
     left:0%;
@@ -54,7 +58,7 @@
 }
 //IPAD PORTRAIT
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .graphic .bubble-layer img, .graphic .fruit-layer img{
     top:50%;
   }
